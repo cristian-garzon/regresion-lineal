@@ -27,5 +27,5 @@ def regLineal():
     print(f"la regresion es de: {regresion.score(x, y)}")
 
     plt.show()
-
+    print(f"y {regresion.coef_}X + {regresion.intercept_}")
 
